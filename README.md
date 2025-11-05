@@ -35,7 +35,7 @@ python3 http_client_conc.py -f urls.txt -c 10 -o output_dir
 
 ## Team Members
 - Hugo Padilla - Server implementation
-- [Teammate 1] - Part 1 performance evaluation
+- Emilio Villar - Part 1 performance evaluation
 - [Teammate 2] - Part 2 performance evaluation
 
 See `TEAM_NOTES.md` for detailed task distribution.

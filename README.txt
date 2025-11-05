@@ -335,13 +335,13 @@ status codes and error messages.
 Part 1: External Downloads
 ---------------------------
 Testscript1.txt:
-- Sequential time: [TBD] seconds
-- Concurrent time (10 connections): [TBD] seconds
+- Sequential time: 21.97 seconds
+- Concurrent time (10 connections): 9.61 seconds
 - Speedup: [TBD]x
 
 Testscript2.txt:
-- Sequential time: [TBD] seconds
-- Concurrent time (10 connections): [TBD] seconds
+- Sequential time: 16.13 seconds
+- Concurrent time (10 connections): 9.61 seconds
 - Speedup: [TBD]x
 
 Part 2: Local Server
@@ -357,7 +357,32 @@ Testfiles2.tar.gz:
 - Speedup: [TBD]x
 
 Analysis:
-[TO BE COMPLETED - Analysis of results, factors affecting speedup, etc.]
+
+The concurrent downloads showed a speedup of Speedup: for testscript1 and Speedup:
+for testscript2. This speedup is achieved because:
+
+1. Network Latency: While one connection is waiting for server response,
+other connections can continue downloading, reducing overall wait time.
+
+2. Concurrent Request Processing: Multiple HTTP requests are sent simultaneously,
+allowing the client to utilize available bandwidth more efficiently.
+
+3. Server Response Time: If the server takes time to process each request,
+concurrent connections allow multiple requests to be processed in parallel.
+
+The speedup may vary based on:
+- Network conditions and latency
+- Server response times
+- File sizes in the test scripts
+- Available bandwidth
+- Number of concurrent connections (10 in this test)
+
+Factors that could limit speedup:
+- Bandwidth saturation: Too many connections can saturate available bandwidth
+- Server rate limiting: Some servers limit connections per client
+- Connection overhead: Each connection has setup/teardown costs
+- Small file sizes: For very small files, connection overhead dominates
+
 
 ================================================================================
 13. ASSIGNMENT QUESTIONS

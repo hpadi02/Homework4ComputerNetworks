@@ -1,0 +1,30 @@
+Found 5 URLs in testscript2.txt
+Starting sequential download of 5 URLs...
+[1/5] Downloading https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab1.tar.gz
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles2/vinelab1.tar.gz
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab1.tar.gz -> seq_output2\vinelab1.tar.gz (10652017 bytes, 5.61s)
+[2/5] Downloading https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab2.tar.gz
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles2/vinelab2.tar.gz
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab2.tar.gz -> seq_output2\vinelab2.tar.gz (10652017 bytes, 2.38s)
+[3/5] Downloading https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab3.tar.gz
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles2/vinelab3.tar.gz
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab3.tar.gz -> seq_output2\vinelab3.tar.gz (10652017 bytes, 2.55s)
+[4/5] Downloading https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab4.tar.gz
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles2/vinelab4.tar.gz
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab4.tar.gz -> seq_output2\vinelab4.tar.gz (10652017 bytes, 3.12s)
+[5/5] Downloading https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab5.tar.gz
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles2/vinelab5.tar.gz
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles2/vinelab5.tar.gz -> seq_output2\vinelab5.tar.gz (10652017 bytes, 2.45s)
+
+Sequential Download Summary:
+  Total URLs: 5
+  Successful: 5
+  Failed: 0
+  Total time: 16.13 seconds
+  Total size: 53260085 bytes
+  Average speed: 3224.32 KB/s

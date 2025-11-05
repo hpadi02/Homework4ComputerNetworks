@@ -1,25 +1,7 @@
 #!/usr/bin/env python3
 """
-Concurrent HTTP Client - Homework 4
-Python-based HTTP client for performance testing.
-Can download URLs sequentially or concurrently.
-
-Usage:
-    python3 http_client_conc.py -u <url> -o <output_file>
-    python3 http_client_conc.py -f <url_file> -c <num_connections> -o <output_dir>
-    python3 http_client_conc.py -f <url_file> -sequential -o <output_dir>
-
-TODO FOR TEAMMATE 1:
-- This client is provided as a Python alternative to the C client from HW2
-- You can use this for Part 1 performance evaluation, or adapt your HW2 C client
-- Tasks:
-  1. Download testscript1.txt and testscript2.txt from the course website
-  2. Run sequential downloads for both test scripts
-  3. Run concurrent downloads (10 connections) for both test scripts
-  4. Calculate and document speedup for each test script
-  5. Update README.txt with Part 1 results and analysis
-  6. Test the client with various scenarios to ensure reliability
-
+Concurrent HTTP Client - Homework 4 (FIXED VERSION)
+Fixed issues with hanging concurrent downloads
 """
 
 import socket
@@ -31,18 +13,10 @@ import os
 from urllib.parse import urlparse
 from typing import List, Tuple
 import queue
-
+import ssl
 
 def parse_url(url: str) -> Tuple[str, str, int, str]:
-    """
-    Parse URL into components.
-    
-    Args:
-        url: URL string
-        
-    Returns:
-        Tuple of (hostname, path, port, scheme)
-    """
+    """Parse URL into components."""
     parsed = urlparse(url)
     
     hostname = parsed.hostname
@@ -55,7 +29,7 @@ def parse_url(url: str) -> Tuple[str, str, int, str]:
     
     port = parsed.port
     if not port:
-        port = 80 if parsed.scheme == 'http' else 443
+        port = 443 if parsed.scheme == 'https' else 80
     
     scheme = parsed.scheme or 'http'
     
@@ -63,33 +37,30 @@ def parse_url(url: str) -> Tuple[str, str, int, str]:
 
 
 def download_file(url: str, output_path: str = None, verbose: bool = False) -> Tuple[bool, float, int]:
-    """
-    Download a single file from URL.
-    
-    Args:
-        url: URL to download
-        output_path: Path to save file (optional, uses filename from URL)
-        verbose: Print progress information
-        
-    Returns:
-        Tuple of (success, download_time, file_size)
-    """
+    """Download a single file from URL."""
     try:
         start_time = time.time()
         
         # Parse URL
         hostname, path, port, scheme = parse_url(url)
         
-        if scheme != 'http':
-            print(f"Error: Only HTTP is supported (not {scheme})", file=sys.stderr)
-            return (False, 0, 0)
+        if verbose:
+            print(f"[DEBUG] Connecting to {hostname}:{port} ({scheme})")
         
         # Create socket connection
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client_socket.settimeout(30)  # 30 second timeout
         
+        # HTTPS support
+        if scheme == 'https':
+            context = ssl.create_default_context()
+            client_socket = context.wrap_socket(client_socket, server_hostname=hostname)
+            
         try:
             client_socket.connect((hostname, port))
+            
+            if verbose:
+                print(f"[DEBUG] Connected, sending request for {path}")
             
             # Send HTTP GET request
             request = f"GET {path} HTTP/1.1\r\n"
@@ -132,7 +103,6 @@ def download_file(url: str, output_path: str = None, verbose: bool = False) -> T
             
             # Determine output path
             if not output_path:
-                # Extract filename from URL
                 filename = os.path.basename(path)
                 if not filename or filename == '/':
                     filename = 'index.html'
@@ -159,13 +129,30 @@ def download_file(url: str, output_path: str = None, verbose: bool = False) -> T
         return (False, 0, 0)
 
 
-def download_worker(url_queue: queue.Queue, output_dir: str, results: List, verbose: bool):
-    """Worker thread for concurrent downloads."""
+def download_worker(url_queue: queue.Queue, output_dir: str, results: List, verbose: bool, worker_id: int):
+    """Worker thread for concurrent downloads - FIXED VERSION"""
+    if verbose:
+        print(f"[Worker {worker_id}] Started")
+    
     while True:
         try:
-            url = url_queue.get(timeout=1)
+            # Use timeout to prevent infinite blocking
+            try:
+                url = url_queue.get(timeout=1)
+            except queue.Empty:
+                if verbose:
+                    print(f"[Worker {worker_id}] Queue empty, checking for termination...")
+                continue
+            
+            # Check for termination signal
             if url is None:
+                if verbose:
+                    print(f"[Worker {worker_id}] Received termination signal")
+                url_queue.task_done()
                 break
+            
+            if verbose:
+                print(f"[Worker {worker_id}] Processing: {url}")
             
             # Generate output filename
             filename = os.path.basename(urlparse(url).path)
@@ -174,66 +161,97 @@ def download_worker(url_queue: queue.Queue, output_dir: str, results: List, verb
             
             output_path = os.path.join(output_dir, filename) if output_dir else filename
             
+            # Download the file
             success, elapsed, size = download_file(url, output_path, verbose)
+            
+            # Store result (thread-safe list append)
             results.append((url, success, elapsed, size))
             
+            if verbose:
+                status = "SUCCESS" if success else "FAILED"
+                print(f"[Worker {worker_id}] {status}: {url} ({size} bytes, {elapsed:.2f}s)")
+            
+            # Mark task as done
             url_queue.task_done()
-        except queue.Empty:
-            break
+            
         except Exception as e:
-            print(f"Worker error: {e}", file=sys.stderr)
-            url_queue.task_done()
+            print(f"[Worker {worker_id}] Unexpected error: {e}", file=sys.stderr)
+            import traceback
+            traceback.print_exc()
+            try:
+                url_queue.task_done()
+            except:
+                pass
+    
+    if verbose:
+        print(f"[Worker {worker_id}] Terminated")
 
 
 def download_concurrent(urls: List[str], num_connections: int, output_dir: str = None, verbose: bool = False) -> Tuple[float, List]:
-    """
-    Download multiple URLs concurrently.
-    
-    Args:
-        urls: List of URLs to download
-        num_connections: Number of concurrent connections
-        output_dir: Directory to save files
-        verbose: Print progress information
-        
-    Returns:
-        Tuple of (total_time, results_list)
-    
-    TODO FOR TEAMMATE 1:
-    - Verify this function works correctly with the test scripts
-    - Check that timing measurements are accurate
-    - Ensure proper error handling for failed downloads
-    - Consider adding retry logic for transient network errors
-    """
+    """Download multiple URLs concurrently - FIXED VERSION"""
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
     
+    # Create queue and add URLs
     url_queue = queue.Queue()
     for url in urls:
         url_queue.put(url)
     
+    print(f"Starting concurrent download of {len(urls)} URLs with {num_connections} connections...")
+    
+    # Thread-safe results list
     results = []
     threads = []
     
     start_time = time.time()
     
+    # Determine actual number of threads to create
+    num_threads = min(num_connections, len(urls))
+    
     # Create worker threads
-    for _ in range(min(num_connections, len(urls))):
+    for i in range(num_threads):
         thread = threading.Thread(
             target=download_worker,
-            args=(url_queue, output_dir, results, verbose)
+            args=(url_queue, output_dir, results, verbose, i),
+            daemon=False  # Don't use daemon threads
         )
         thread.start()
         threads.append(thread)
+        if verbose:
+            print(f"Created worker thread {i}")
     
-    # Wait for all downloads to complete
-    url_queue.join()
+    print(f"Waiting for {num_threads} workers to complete...")
     
-    # Signal threads to stop
-    for _ in threads:
-        url_queue.put(None)
-    
-    for thread in threads:
-        thread.join()
+    # Wait for all downloads to complete with timeout
+    try:
+        # Wait for queue to be empty (all tasks done)
+        while not url_queue.empty():
+            time.sleep(0.1)
+        
+        # Wait a bit more to ensure last tasks are marked done
+        url_queue.join()
+        
+        print("All downloads complete, signaling workers to stop...")
+        
+        # Signal threads to stop
+        for i in range(num_threads):
+            url_queue.put(None)
+        
+        # Wait for threads to finish
+        for i, thread in enumerate(threads):
+            thread.join(timeout=5)
+            if thread.is_alive():
+                print(f"Warning: Thread {i} did not terminate cleanly", file=sys.stderr)
+        
+    except KeyboardInterrupt:
+        print("\nInterrupted by user, stopping workers...")
+        # Signal all threads to stop
+        for _ in threads:
+            try:
+                url_queue.put(None)
+            except:
+                pass
+        raise
     
     total_time = time.time() - start_time
     
@@ -241,21 +259,16 @@ def download_concurrent(urls: List[str], num_connections: int, output_dir: str =
 
 
 def download_sequential(urls: List[str], output_dir: str = None, verbose: bool = False) -> Tuple[float, List]:
-    """
-    Download multiple URLs sequentially.
-    
-    Args:
-        urls: List of URLs to download
-        output_dir: Directory to save files
-        verbose: Print progress information
-        
-    Returns:
-        Tuple of (total_time, results_list)
-    """
+    """Download multiple URLs sequentially."""
     results = []
     start_time = time.time()
     
+    print(f"Starting sequential download of {len(urls)} URLs...")
+    
     for i, url in enumerate(urls):
+        if verbose:
+            print(f"[{i+1}/{len(urls)}] Downloading {url}")
+        
         # Generate output filename
         filename = os.path.basename(urlparse(url).path)
         if not filename or filename == '/':
@@ -333,27 +346,35 @@ def main():
         print("Error: No URLs found in file", file=sys.stderr)
         sys.exit(1)
     
-    if args.sequential:
-        total_time, results = download_sequential(urls, args.output, args.verbose)
-        mode = "Sequential"
-    else:
-        total_time, results = download_concurrent(urls, args.concurrent, args.output, args.verbose)
-        mode = f"Concurrent ({args.concurrent} connections)"
+    print(f"Found {len(urls)} URLs in {args.file}")
     
-    # Print summary
-    successful = sum(1 for _, success, _, _ in results if success)
-    total_size = sum(size for _, _, _, size in results if success)
+    try:
+        if args.sequential:
+            total_time, results = download_sequential(urls, args.output, args.verbose)
+            mode = "Sequential"
+        else:
+            total_time, results = download_concurrent(urls, args.concurrent, args.output, args.verbose)
+            mode = f"Concurrent ({args.concurrent} connections)"
+        
+        # Print summary
+        successful = sum(1 for _, success, _, _ in results if success)
+        total_size = sum(size for _, success, _, size in results if success)
+        
+        print(f"\n{mode} Download Summary:")
+        print(f"  Total URLs: {len(urls)}")
+        print(f"  Successful: {successful}")
+        print(f"  Failed: {len(urls) - successful}")
+        print(f"  Total time: {total_time:.2f} seconds")
+        print(f"  Total size: {total_size} bytes")
+        if successful > 0 and total_time > 0:
+            print(f"  Average speed: {total_size / total_time / 1024:.2f} KB/s")
+        elif successful > 0:
+            print("  Average speed: N/A (time was near zero)")
     
-    print(f"\n{mode} Download Summary:")
-    print(f"  Total URLs: {len(urls)}")
-    print(f"  Successful: {successful}")
-    print(f"  Failed: {len(urls) - successful}")
-    print(f"  Total time: {total_time:.2f} seconds")
-    print(f"  Total size: {total_size} bytes")
-    if successful > 0:
-        print(f"  Average speed: {total_size / total_time / 1024:.2f} KB/s")
+    except KeyboardInterrupt:
+        print("\n\nInterrupted by user!")
+        sys.exit(1)
 
 
 if __name__ == '__main__':
     main()
-

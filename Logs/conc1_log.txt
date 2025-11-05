@@ -1,0 +1,743 @@
+Found 139 URLs in testscript1.txt
+Starting concurrent download of 139 URLs with 10 connections...
+[Worker 0] Started
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 0
+[Worker 1] Started
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 1
+[Worker 2] Started
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 2
+[Worker 3] Started
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 3
+[Worker 4] Started
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 4
+[Worker 5] Started
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 5
+[Worker 6] Started
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 6
+[Worker 7] Started
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 7
+[Worker 8] Started
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 8
+[Worker 9] Started
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Created worker thread 9
+Waiting for 10 workers to complete...
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-14.gif (5013 bytes, 0.22s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.gif (5013 bytes, 0.22s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-12.ps (20684 bytes, 0.24s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.ps (20684 bytes, 0.24s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-13.gif (5099 bytes, 0.24s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.gif (5099 bytes, 0.24s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-12.gif (5489 bytes, 0.24s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-10.ps (18722 bytes, 0.25s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-12.gif (5489 bytes, 0.24s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.ps (18722 bytes, 0.25s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-13.ps (18927 bytes, 0.30s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.gif
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-13.ps (18927 bytes, 0.30s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-11.gif (5110 bytes, 0.30s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.gif (5110 bytes, 0.30s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-14.ps (19410 bytes, 0.31s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-11.ps (19145 bytes, 0.32s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-14.ps (19410 bytes, 0.31s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-11.ps (19145 bytes, 0.32s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-10.gif (5071 bytes, 0.33s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-10.gif (5071 bytes, 0.33s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-15.gif (5299 bytes, 0.16s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.gif (5299 bytes, 0.16s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-16.gif (5818 bytes, 0.17s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.gif (5818 bytes, 0.17s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-15.ps (20046 bytes, 0.19s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-15.ps (20046 bytes, 0.19s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-17.gif (5811 bytes, 0.19s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.gif (5811 bytes, 0.19s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-16.ps (21813 bytes, 0.20s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.gif
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-16.ps (21813 bytes, 0.20s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-18.gif (5390 bytes, 0.16s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.gif (5390 bytes, 0.16s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-1.gif (6280 bytes, 0.10s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.gif (6280 bytes, 0.10s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-17.ps (21955 bytes, 0.20s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-17.ps (21955 bytes, 0.20s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-18.ps (19875 bytes, 0.20s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-18.ps (19875 bytes, 0.20s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-19.gif (5707 bytes, 0.22s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.gif (5707 bytes, 0.22s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-1.ps (23026 bytes, 0.16s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-1.ps (23026 bytes, 0.16s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-19.ps (21783 bytes, 0.24s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.ps
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-19.ps (21783 bytes, 0.24s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-20.gif (6079 bytes, 0.18s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.gif (6079 bytes, 0.18s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-21.gif (5206 bytes, 0.18s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.gif (5206 bytes, 0.18s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-20.ps (22669 bytes, 0.18s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-20.ps (22669 bytes, 0.18s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-22.gif (6747 bytes, 0.19s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.gif (6747 bytes, 0.19s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-21.ps (19819 bytes, 0.19s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-21.ps (19819 bytes, 0.19s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-23.gif (5950 bytes, 0.15s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.gif (5950 bytes, 0.15s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-22.ps (24946 bytes, 0.21s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-22.ps (24946 bytes, 0.21s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-23.ps (22139 bytes, 0.19s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-2.gif (5788 bytes, 0.17s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-23.ps (22139 bytes, 0.19s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.gif
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.gif (5788 bytes, 0.17s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-2.ps (21875 bytes, 0.16s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-2.ps (21875 bytes, 0.16s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-4.gif (5064 bytes, 0.16s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-3.gif (6542 bytes, 0.20s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.gif
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.gif (6542 bytes, 0.20s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-3.ps (24755 bytes, 0.18s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-3.ps (24755 bytes, 0.18s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-5.gif (6631 bytes, 0.19s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.gif (6631 bytes, 0.19s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-4.ps (17909 bytes, 0.19s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-6.gif (5221 bytes, 0.13s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-4.ps (17909 bytes, 0.19s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.gif (5221 bytes, 0.13s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-5.ps (24878 bytes, 0.22s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-5.ps (24878 bytes, 0.22s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-7.gif (6466 bytes, 0.17s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.gif (6466 bytes, 0.17s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-6.ps (19817 bytes, 0.18s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.gif
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-6.ps (19817 bytes, 0.18s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-8.gif (5357 bytes, 0.15s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.ps
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.gif (5357 bytes, 0.15s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-7.ps (24604 bytes, 0.21s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-7.ps (24604 bytes, 0.21s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.gif -> conc_output1\plot-lqireliability-vhe-node0-data30-9.gif (5325 bytes, 0.18s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-8.ps (20077 bytes, 0.18s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.gif (5325 bytes, 0.18s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-8.ps (20077 bytes, 0.18s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.gif -> conc_output1\plot-lqi-vhe-node0-data30-10.gif (3893 bytes, 0.15s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.gif (3893 bytes, 0.15s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.ps -> conc_output1\plot-lqi-vhe-node0-data30-10.ps (15533 bytes, 0.15s)
+                                                                                                                                                                                                                                                                                                                                 [Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-10.ps (15533 bytes, 0.15s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.gif -> conc_output1\plot-lqi-vhe-node0-data30-11.gif (3850 bytes, 0.14s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.gif (3850 bytes, 0.14s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.gif -> conc_output1\plot-lqi-vhe-node0-data30-12.gif (3842 bytes, 0.14s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.gif (3842 bytes, 0.14s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.ps -> conc_output1\plot-lqireliability-vhe-node0-data30-9.ps (19835 bytes, 0.21s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.ps
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqireliability-vhe-node0-data30-9.ps (19835 bytes, 0.21s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.ps -> conc_output1\plot-lqi-vhe-node0-data30-11.ps (15532 bytes, 0.18s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-11.ps (15532 bytes, 0.18s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.ps -> conc_output1\plot-lqi-vhe-node0-data30-12.ps (15532 bytes, 0.18s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-12.ps (15532 bytes, 0.18s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.gif -> conc_output1\plot-lqi-vhe-node0-data30-14.gif (3838 bytes, 0.18s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.gif (3838 bytes, 0.18s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.gif -> conc_output1\plot-lqi-vhe-node0-data30-13.gif (3860 bytes, 0.23s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.gif (3860 bytes, 0.23s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.ps -> conc_output1\plot-lqi-vhe-node0-data30-13.ps (15534 bytes, 0.20s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-13.ps (15534 bytes, 0.20s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.ps -> conc_output1\plot-lqi-vhe-node0-data30-14.ps (15528 bytes, 0.20s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-14.ps (15528 bytes, 0.20s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.gif -> conc_output1\plot-lqi-vhe-node0-data30-15.gif (3855 bytes, 0.20s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.gif (3855 bytes, 0.20s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.gif -> conc_output1\plot-lqi-vhe-node0-data30-16.gif (3893 bytes, 0.18s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.gif (3893 bytes, 0.18s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.ps -> conc_output1\plot-lqi-vhe-node0-data30-15.ps (15533 bytes, 0.19s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-15.ps (15533 bytes, 0.19s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.gif -> conc_output1\plot-lqi-vhe-node0-data30-17.gif (3887 bytes, 0.17s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.gif (3887 bytes, 0.17s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.ps -> conc_output1\plot-lqi-vhe-node0-data30-16.ps (15535 bytes, 0.20s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-16.ps (15535 bytes, 0.20s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.ps -> conc_output1\plot-lqi-vhe-node0-data30-17.ps (15535 bytes, 0.17s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-17.ps (15535 bytes, 0.17s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.gif -> conc_output1\plot-lqi-vhe-node0-data30-18.gif (3882 bytes, 0.14s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.ps -> conc_output1\plot-lqi-vhe-node0-data30-18.ps (15534 bytes, 0.12s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.gif (3882 bytes, 0.14s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-18.ps (15534 bytes, 0.12s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.gif -> conc_output1\plot-lqi-vhe-node0-data30-19.gif (3887 bytes, 0.15s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.gif -> conc_output1\plot-lqi-vhe-node0-data30-1.gif (3908 bytes, 0.11s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.ps
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.gif (3887 bytes, 0.15s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.gif (3908 bytes, 0.11s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.ps -> conc_output1\plot-lqi-vhe-node0-data30-19.ps (15536 bytes, 0.16s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-19.ps (15536 bytes, 0.16s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.gif -> conc_output1\plot-lqi-vhe-node0-data30-20.gif (3947 bytes, 0.14s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.gif (3947 bytes, 0.14s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.ps -> conc_output1\plot-lqi-vhe-node0-data30-1.ps (15539 bytes, 0.15s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-1.ps (15539 bytes, 0.15s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.gif -> conc_output1\plot-lqi-vhe-node0-data30-21.gif (3867 bytes, 0.16s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.gif (3867 bytes, 0.16s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.ps -> conc_output1\plot-lqi-vhe-node0-data30-20.ps (15538 bytes, 0.18s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-20.ps (15538 bytes, 0.18s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.gif -> conc_output1\plot-lqi-vhe-node0-data30-22.gif (3936 bytes, 0.15s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.gif (3936 bytes, 0.15s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.ps -> conc_output1\plot-lqi-vhe-node0-data30-22.ps (15539 bytes, 0.16s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-22.ps (15539 bytes, 0.16s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.ps -> conc_output1\plot-lqi-vhe-node0-data30-21.ps (15534 bytes, 0.19s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-21.ps (15534 bytes, 0.19s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.gif -> conc_output1\plot-lqi-vhe-node0-data30-23.gif (3912 bytes, 0.17s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.gif (3912 bytes, 0.17s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.gif -> conc_output1\plot-lqi-vhe-node0-data30-3.gif (3917 bytes, 0.14s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.gif (3917 bytes, 0.14s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.gif -> conc_output1\plot-lqi-vhe-node0-data30-2.gif (3857 bytes, 0.15s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.gif (3857 bytes, 0.15s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.ps -> conc_output1\plot-lqi-vhe-node0-data30-23.ps (15538 bytes, 0.21s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-23.ps (15538 bytes, 0.21s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.ps -> conc_output1\plot-lqi-vhe-node0-data30-3.ps (15534 bytes, 0.13s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-3.ps (15534 bytes, 0.13s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.ps -> conc_output1\plot-lqi-vhe-node0-data30-2.ps (15532 bytes, 0.18s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-2.ps (15532 bytes, 0.18s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.gif -> conc_output1\plot-lqi-vhe-node0-data30-5.gif (3941 bytes, 0.12s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.ps
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.gif (3941 bytes, 0.12s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.ps -> conc_output1\plot-lqi-vhe-node0-data30-4.ps (15537 bytes, 0.15s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.ps (15537 bytes, 0.15s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.ps -> conc_output1\plot-lqi-vhe-node0-data30-5.ps (15536 bytes, 0.10s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-5.ps (15536 bytes, 0.10s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.gif -> conc_output1\plot-lqi-vhe-node0-data30-6.gif (3867 bytes, 0.13s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.gif (3867 bytes, 0.13s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.ps -> conc_output1\plot-lqi-vhe-node0-data30-6.ps (15529 bytes, 0.13s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.ps
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-6.ps (15529 bytes, 0.13s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.gif -> conc_output1\plot-lqi-vhe-node0-data30-7.gif (3900 bytes, 0.17s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.gif (3900 bytes, 0.17s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.ps -> conc_output1\plot-lqi-vhe-node0-data30-7.ps (15533 bytes, 0.16s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.gif -> conc_output1\plot-lqi-vhe-node0-data30-8.gif (3870 bytes, 0.14s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-7.ps (15533 bytes, 0.16s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.gif (3870 bytes, 0.14s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.gif
+‚ ­MK©†²ê£ d*+KÑ¿JMŽí€v¥g·x@ÀsBÈhÀÛS+Ý^¸v˜5“‹|:[·Ïå$±©}¸ÌkKñÜ«¥@$ t”¡)³ˆõ‡wUÍäÃ~×jd«…Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.ps -> conc_output1\plot-lqi-vhe-node0-data30-8.ps (15533 bytes, 0.13s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-8.ps (15533 bytes, 0.13s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.gif -> conc_output1\plot-vhe-node0-data30-10.gif (10727 bytes, 0.14s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.gif (10727 bytes, 0.14s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.ps -> conc_output1\plot-lqi-vhe-node0-data30-9.ps (15531 bytes, 0.17s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.ps (15531 bytes, 0.17s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.gif -> conc_output1\plot-lqi-vhe-node0-data30-9.gif (3878 bytes, 0.17s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-9.gif (3878 bytes, 0.17s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.ps -> conc_output1\plot-vhe-node0-data30-10.ps (24171 bytes, 0.16s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-10.ps (24171 bytes, 0.16s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.gif -> conc_output1\plot-lqi-vhe-node0-data30-4.gif (3900 bytes, 0.36s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-lqi-vhe-node0-data30-4.gif (3900 bytes, 0.36s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.gif -> conc_output1\plot-vhe-node0-data30-11.gif (9602 bytes, 0.17s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.gif (9602 bytes, 0.17s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.gif -> conc_output1\plot-vhe-node0-data30-12.gif (11204 bytes, 0.13s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.gif (11204 bytes, 0.13s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.ps -> conc_output1\plot-vhe-node0-data30-11.ps (24034 bytes, 0.15s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-11.ps (24034 bytes, 0.15s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.gif -> conc_output1\plot-vhe-node0-data30-13.gif (10553 bytes, 0.15s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.gif (10553 bytes, 0.15s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.ps -> conc_output1\plot-vhe-node0-data30-13.ps (23937 bytes, 0.12s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-13.ps (23937 bytes, 0.12s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.ps -> conc_output1\plot-vhe-node0-data30-12.ps (25010 bytes, 0.16s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-12.ps (25010 bytes, 0.16s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.gif -> conc_output1\plot-vhe-node0-data30-14.gif (10384 bytes, 0.14s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.gif (10384 bytes, 0.14s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.gif -> conc_output1\plot-vhe-node0-data30-15.gif (10004 bytes, 0.12s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.gif (10004 bytes, 0.12s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.ps -> conc_output1\plot-vhe-node0-data30-14.ps (24538 bytes, 0.17s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-14.ps (24538 bytes, 0.17s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.ps -> conc_output1\plot-vhe-node0-data30-15.ps (24623 bytes, 0.14s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-15.ps (24623 bytes, 0.14s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.gif -> conc_output1\plot-vhe-node0-data30-17.gif (12917 bytes, 0.13s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.gif (12917 bytes, 0.13s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.gif -> conc_output1\plot-vhe-node0-data30-16.gif (13033 bytes, 0.16s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.gif (13033 bytes, 0.16s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.ps -> conc_output1\plot-vhe-node0-data30-16.ps (26117 bytes, 0.17s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-16.ps (26117 bytes, 0.17s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.gif -> conc_output1\plot-vhe-node0-data30-18.gif (10631 bytes, 0.15s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.ps -> conc_output1\plot-vhe-node0-data30-18.ps (24800 bytes, 0.14s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.gif (10631 bytes, 0.15s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.gif
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-18.ps (24800 bytes, 0.14s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.ps -> conc_output1\plot-vhe-node0-data30-17.ps (25978 bytes, 0.16s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-17.ps (25978 bytes, 0.16s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.gif -> conc_output1\plot-vhe-node0-data30-19.gif (10833 bytes, 0.16s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.gif (10833 bytes, 0.16s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.gif -> conc_output1\plot-vhe-node0-data30-1.gif (12965 bytes, 0.15s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.gif (12965 bytes, 0.15s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.ps -> conc_output1\plot-vhe-node0-data30-1.ps (26374 bytes, 0.13s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.ps -> conc_output1\plot-vhe-node0-data30-19.ps (25506 bytes, 0.18s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-1.ps (26374 bytes, 0.13s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-24.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-19.ps (25506 bytes, 0.18s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.gif -> conc_output1\plot-vhe-node0-data30-20.gif (14062 bytes, 0.16s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.gif
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.gif (14062 bytes, 0.16s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.ps -> conc_output1\plot-vhe-node0-data30-20.ps (26303 bytes, 0.18s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-20.ps (26303 bytes, 0.18s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.gif -> conc_output1\plot-vhe-node0-data30-21.gif (10742 bytes, 0.18s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.gif (10742 bytes, 0.18s)
+[Worker 7] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.gif -> conc_output1\plot-vhe-node0-data30-22.gif (14113 bytes, 0.16s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.gif (14113 bytes, 0.16s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.ps -> conc_output1\plot-vhe-node0-data30-22.ps (27391 bytes, 0.17s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-22.ps (27391 bytes, 0.17s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-24.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.ps -> conc_output1\plot-vhe-node0-data30-21.ps (24465 bytes, 0.20s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.gif -> conc_output1\plot-vhe-node0-data30-23.gif (12474 bytes, 0.15s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-21.ps (24465 bytes, 0.20s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.gif (12474 bytes, 0.15s)
+[Worker 1] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-24.ps -> conc_output1\plot-vhe-node0-data30-24.ps (0 bytes, 0.17s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-24.ps (0 bytes, 0.17s)
+[Worker 6] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.ps -> conc_output1\plot-vhe-node0-data30-23.ps (25608 bytes, 0.18s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-23.ps (25608 bytes, 0.18s)
+[Worker 0] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.gif -> conc_output1\plot-vhe-node0-data30-2.gif (11971 bytes, 0.20s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.gif (11971 bytes, 0.20s)
+[Worker 4] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.ps -> conc_output1\plot-vhe-node0-data30-2.ps (25888 bytes, 0.17s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-2.ps (25888 bytes, 0.17s)
+[Worker 8] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.ps -> conc_output1\plot-vhe-node0-data30-4.ps (23254 bytes, 0.14s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.ps (23254 bytes, 0.14s)
+[Worker 9] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.gif -> conc_output1\plot-vhe-node0-data30-3.gif (13064 bytes, 0.20s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.gif (13064 bytes, 0.20s)
+[Worker 3] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.gif -> conc_output1\plot-vhe-node0-data30-4.gif (10577 bytes, 0.18s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.gif -> conc_output1\plot-vhe-node0-data30-5.gif (14458 bytes, 0.14s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-4.gif (10577 bytes, 0.18s)
+[Worker 2] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.gif
+[DEBUG] Connecting to zechuncao.com:443 (https)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.gif (14458 bytes, 0.14s)
+[Worker 5] Processing: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.ps
+[DEBUG] Connecting to zechuncao.com:443 (https)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.ps -> conc_output1\plot-vhe-node0-data30-3.ps (27243 bytes, 0.21s)
+[Worker 7] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-3.ps (27243 bytes, 0.21s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.ps -> conc_output1\plot-vhe-node0-data30-5.ps (27592 bytes, 0.18s)
+[Worker 1] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-5.ps (27592 bytes, 0.18s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.gif -> conc_output1\plot-vhe-node0-data30-6.gif (11180 bytes, 0.15s)
+[Worker 6] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.gif (11180 bytes, 0.15s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.ps
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.gif
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.ps -> conc_output1\plot-vhe-node0-data30-7.ps (26952 bytes, 0.17s)
+[Worker 8] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.ps (26952 bytes, 0.17s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.gif -> conc_output1\plot-vhe-node0-data30-7.gif (13309 bytes, 0.18s)
+[Worker 4] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-7.gif (13309 bytes, 0.18s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.ps -> conc_output1\plot-vhe-node0-data30-6.ps (24976 bytes, 0.21s)
+[Worker 0] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-6.ps (24976 bytes, 0.21s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.gif -> conc_output1\plot-vhe-node0-data30-8.gif (10366 bytes, 0.13s)
+[Worker 9] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.gif (10366 bytes, 0.13s)
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.gif
+[DEBUG] Connected, sending request for /teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.ps
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.gif -> conc_output1\plot-vhe-node0-data30-9.gif (10207 bytes, 0.14s)
+[Worker 2] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.gif (10207 bytes, 0.14s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.ps -> conc_output1\plot-vhe-node0-data30-8.ps (24431 bytes, 0.16s)
+[Worker 3] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-8.ps (24431 bytes, 0.16s)
+Downloaded https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.ps -> conc_output1\plot-vhe-node0-data30-9.ps (24638 bytes, 0.16s)
+[Worker 5] SUCCESS: https://zechuncao.com/teaching/csci4406/testfiles/testfiles1/plot-vhe-node0-data30-9.ps (24638 bytes, 0.16s)
+All downloads complete, signaling workers to stop...
+[Worker 7] Received termination signal
+[Worker 7] Terminated
+[Worker 1] Received termination signal
+[Worker 1] Terminated
+[Worker 6] Received termination signal
+[Worker 6] Terminated
+[Worker 8] Received termination signal
+[Worker 8] Terminated
+[Worker 4] Received termination signal
+[Worker 4] Terminated
+[Worker 0] Received termination signal
+[Worker 0] Terminated
+[Worker 9] Received termination signal
+[Worker 9] Terminated
+[Worker 2] Received termination signal
+[Worker 2] Terminated
+[Worker 3] Received termination signal
+[Worker 3] Terminated
+[Worker 5] Received termination signal
+[Worker 5] Terminated
+
+Concurrent (10 connections) Download Summary:
+  Total URLs: 139
+  Successful: 139
+  Failed: 0
+  Total time: 2.55 seconds
+  Total size: 1919049 bytes
+  Average speed: 734.35 KB/s
