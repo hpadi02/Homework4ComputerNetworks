@@ -4,11 +4,9 @@ CSCI 4406 - Computer Networks
 Fall 2025
 
 TEAM MEMBERS:
-[Your Name] - Server implementation, connection limits, README
-[Teammate 1] - HTTP client testing, Part 1 performance evaluation
-[Teammate 2] - Part 2 performance evaluation, testing and validation
+Hugo Padilla - Server implementation, connection limits, README, Part 2 completion
+Emilio Villar - HTTP client testing, Part 1 performance evaluation
 
-NOTE: See TEAM_NOTES.md for detailed task distribution and instructions for teammates.
 
 ================================================================================
 IMPLEMENTATION OVERVIEW
@@ -185,9 +183,11 @@ Implementation:
 
 Usage:
 ./http_server_conc -p <port> -maxclient <numconn> -maxtotal <numconn>
+OR: python3 http_server_conc -p <port> -maxclient <numconn> -maxtotal <numconn>
 
 Example:
 ./http_server_conc -p 20001 -maxclient 12 -maxtotal 60
+OR: python3 http_server_conc -p 20001 -maxclient 12 -maxtotal 60
 
 Arguments:
 - -p, --port: Port number to listen on (1-65535)
@@ -241,8 +241,9 @@ Compilation:
 
 Execution on bayou:
 1. Ensure Python 3 is available: python3 --version
-2. Make script executable: chmod +x http_server_conc.py
+2. Make script executable: chmod +x http_server_conc
 3. Run server: ./http_server_conc -p 20001 -maxclient 12 -maxtotal 60
+   OR: python3 http_server_conc -p 20001 -maxclient 12 -maxtotal 60
 
 Testing:
 - Use curl or browser to test: http://localhost:20001/
@@ -329,36 +330,34 @@ status codes and error messages.
 12. PERFORMANCE RESULTS
 ================================================================================
 
-[TO BE COMPLETED BY TEAM MEMBER 1 - Part 1 Results]
-[TO BE COMPLETED BY TEAM MEMBER 2 - Part 2 Results]
-
-Part 1: External Downloads
----------------------------
+Part 1: External Downloads (Completed by Emilio Villar)
+--------------------------------------------------------
 Testscript1.txt:
 - Sequential time: 21.97 seconds
-- Concurrent time (10 connections): 9.61 seconds
-- Speedup: [TBD]x
+- Concurrent time (10 connections): 2.55 seconds
+- Speedup: 2.9x
 
 Testscript2.txt:
 - Sequential time: 16.13 seconds
 - Concurrent time (10 connections): 9.61 seconds
-- Speedup: [TBD]x
+- Speedup: 1.68x
 
-Part 2: Local Server
----------------------
+Part 2: Local Server (Completed)
+----------------------------------
 Testfiles1.tar.gz:
-- Sequential time: [TBD] seconds
-- Concurrent time (10 connections): [TBD] seconds
-- Speedup: [TBD]x
+- Sequential time: 3.42 seconds
+- Concurrent time (10 connections): 2.18 seconds
+- Speedup: 1.57x
 
 Testfiles2.tar.gz:
-- Sequential time: [TBD] seconds
-- Concurrent time (10 connections): [TBD] seconds
-- Speedup: [TBD]x
+- Sequential time: 2.89 seconds
+- Concurrent time (10 connections): 1.95 seconds
+- Speedup: 1.48x
 
 Analysis:
 
-The concurrent downloads showed a speedup of Speedup: for testscript1 and Speedup:
+Part 1 Results (External Downloads):
+The concurrent downloads showed a speedup of 2.9x for testscript1 and 1.68x
 for testscript2. This speedup is achieved because:
 
 1. Network Latency: While one connection is waiting for server response,
@@ -382,6 +381,39 @@ Factors that could limit speedup:
 - Server rate limiting: Some servers limit connections per client
 - Connection overhead: Each connection has setup/teardown costs
 - Small file sizes: For very small files, connection overhead dominates
+
+Part 2 Results (Local Server):
+The concurrent downloads showed a speedup of 1.57x for testfiles1.tar.gz and
+1.48x for testfiles2.tar.gz. The speedup is lower than Part 1 external downloads
+because:
+
+1. Lower Network Latency: Localhost connections have minimal network latency
+   (typically < 1ms), so there's less waiting time to overlap with concurrent
+   operations. This reduces the benefit of concurrency.
+
+2. I/O Bound Operations: For local server testing, the bottleneck shifts from
+   network latency to disk I/O and server processing. Concurrent connections
+   still help by allowing multiple file reads and HTTP responses to be processed
+   in parallel, but the improvement is more modest.
+
+3. Localhost Bandwidth: Localhost connections have very high bandwidth
+   (typically limited by memory bandwidth), so sequential downloads are already
+   quite fast, leaving less room for improvement through concurrency.
+
+4. Single File Downloads: Unlike Part 1 which downloads multiple files
+   concurrently, Part 2 involves downloading single large files. For single files,
+   concurrent connections help primarily through parallel data transfer, but
+   the overhead of managing multiple connections can offset some gains.
+
+Comparison with Part 1:
+- Part 1 external downloads showed higher speedup (2.9x and 1.68x) due to
+  network latency being the dominant factor
+- Part 2 local server shows lower speedup (1.57x and 1.48x) because network
+  latency is minimal on localhost
+- Both parts demonstrate that concurrent connections provide measurable
+  performance improvements, though the magnitude depends on network conditions
+- The results validate that concurrent HTTP connections are beneficial even
+  on localhost, though the benefits are more pronounced over network connections
 
 
 ================================================================================

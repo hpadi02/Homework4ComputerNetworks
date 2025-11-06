@@ -11,8 +11,6 @@ Features:
 - Handles 404 errors gracefully
 
 Author: Hugo Padilla - Server implementation
-TODO for Teammate 1: Test server with your HTTP client implementation
-TODO for Teammate 2: Run Part 2 performance tests and document results
 """
 
 import socket
@@ -156,10 +154,6 @@ def get_client_id(client_address: Tuple[str, int]) -> str:
     """
     Generate a unique client identifier.
     Uses IP address and port to identify unique client connections.
-    
-    Note: For a more robust implementation, you might want to consider
-    using additional factors like User-Agent or session tokens, but
-    IP:port is sufficient for this assignment.
     
     Args:
         client_address: Tuple of (host, port)
